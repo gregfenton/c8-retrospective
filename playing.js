@@ -1,12 +1,6 @@
-function countUpToN(n) {
-  console.log(`starting countUpToN(${n})`);
-  for (let i = 0; i < n ; i++) {
-    console.log(i);
-  }
-  console.log("ending countUpToN()");
-}
+const { countUpToN } = require('./countUpToN');
 
 // MAIN
-console.log("hello world");
+console.log('hello world');
 countUpToN(3);
-console.log("bye!");
+console.log('bye!');
