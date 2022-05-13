@@ -6,6 +6,7 @@ function countUpToN(n) {
   console.log('ending countUpToN()');
 }
 
-console.log("INSIDE COUNT UP TO N:", 55 + 99);
 
 module.exports = {countUpToN};
+
+console.log("INSIDE COUNT UP TO N:", 55 + 99);

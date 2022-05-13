@@ -1,6 +1,6 @@
-const { countUpToN } = require('./countUpToN');
+const { countUpToN: myCat } = require('./blippity');
 
 // MAIN
 console.log('hello world');
-countUpToN(3);
+myCat(3);
 console.log('bye!');
